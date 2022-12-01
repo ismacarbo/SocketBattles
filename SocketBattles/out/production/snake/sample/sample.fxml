@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#spara" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="642.0" layoutY="-75.0" mnemonicParsing="false" onKeyPressed="#cambia" text="Button" />
+      <Line endX="799.0" fill="#111111" layoutX="112.0" layoutY="300.0" startX="-123.625" stroke="#070707" strokeWidth="15.0" />
+      <ProgressBar fx:id="progressBar" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="204.0" progress="1.0" />
+
+      <Label fx:id="primaLabel" layoutX="274.0" layoutY="63.0" prefHeight="54.0" prefWidth="401.0" text="Altro avversario ha vinto!">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="secondaLabel" layoutX="262.0" layoutY="117.0" prefHeight="54.0" prefWidth="352.0" text="Premete r per ricominciare!">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="terzaLabel" layoutX="231.0" layoutY="331.0" prefHeight="54.0" prefWidth="487.0" text="Hai vinto! Premete r per ricominciare!">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+
+   </children>
+</Pane>
